@@ -1,0 +1,79 @@
+html, body{
+	background-color: #EEEFE5;
+	padding-top: 1rem;
+}
+
+h4{
+	color: #555555;
+	font-weight: 200;
+}
+
+.login-container{
+	padding-top: 5rem;
+}
+
+.form-container{
+	background-color: #fff;
+	padding: 3rem 1rem 3rem 1rem;
+}
+
+.active{
+	color: #D3672F !important;
+}
+
+i{
+	color: #757575;
+}
+
+h2{
+	color: #666666;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]){
+	border-color: #D3672F !important;
+	box-shadow: 0 1px 0 0 #D3672F !important;
+}
+
+.center{
+	text-align: center;
+}
+
+.orange{
+	background-color: #D3672F !important;
+}
+
+.orange-text{
+	color: #D3672F !important;
+}
+
+.btn-add{
+	position: fixed;
+	bottom: 2rem;
+	right: 2rem;
+}
+
+.card .card-action{
+	padding: 16px 24px 51px;
+}
+
+.edit{
+	margin-right: 25px;
+}
+
+.logout{
+	position: fixed;
+	top: 2rem;
+	right: 2rem;
+}
+
+input[type=text].valid:not(.browser-default){
+	border-bottom: 1px solid #D3672F;
+	box-shadow: 0 1px 0 0 #D3672F;
+}
+
+textarea.materialize-textarea:focus:not([readonly]){
+	border-bottom: 1px solid #D3672F;
+	box-shadow: 0 1px 0 0 #D3672F;
+}
+
+
